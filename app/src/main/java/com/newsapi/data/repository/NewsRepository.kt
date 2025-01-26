@@ -1,12 +1,12 @@
 package com.newsapi.data.repository
 
 import com.newsapi.data.remote.NewsApi
-import com.newsapi.domain.repository.NewRepo
+import com.newsapi.domain.repository.NewsRepo
 import javax.inject.Inject
 
-class NewsRepository @Inject constructor(private val newsApi: NewsApi): NewRepo {
+class NewsRepository @Inject constructor(private val newsApi: NewsApi): NewsRepo {
 
-    override suspend fun getWeatherNewsList() = newsApi.getTeslaNewsList()
+    override suspend fun getTeslaNewsList() = newsApi.getTeslaNewsList()
 
     override suspend fun getCryptNewsList() = newsApi.getCryptoNewsList()
 

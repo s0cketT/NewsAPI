@@ -7,7 +7,7 @@ import com.newsapi.common.Constants.SortBy
 import com.newsapi.common.Constants.Tesla_Query
 import com.newsapi.domain.model.CryptoNewsList.CryptoNewsList
 import com.newsapi.domain.model.CryptoNewsList.FilmsNewsList
-import com.newsapi.domain.model.WeatherNewsList.TeslaNewsList
+import com.newsapi.domain.model.TeslaNewsList.TeslaNewsList
 import retrofit2.http.GET
 import retrofit2.http.Query
 

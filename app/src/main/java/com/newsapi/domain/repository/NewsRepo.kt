@@ -2,12 +2,12 @@ package com.newsapi.domain.repository
 
 import com.newsapi.domain.model.CryptoNewsList.CryptoNewsList
 import com.newsapi.domain.model.CryptoNewsList.FilmsNewsList
-import com.newsapi.domain.model.WeatherNewsList.TeslaNewsList
+import com.newsapi.domain.model.TeslaNewsList.TeslaNewsList
 
 
-interface NewRepo {
+interface NewsRepo {
 
-    suspend fun getWeatherNewsList(): TeslaNewsList
+    suspend fun getTeslaNewsList(): TeslaNewsList
 
     suspend fun getCryptNewsList(): CryptoNewsList
 

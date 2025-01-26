@@ -1,7 +1,7 @@
 package com.newsapi.di
 
 import com.newsapi.data.repository.NewsRepository
-import com.newsapi.domain.repository.NewRepo
+import com.newsapi.domain.repository.NewsRepo
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -13,5 +13,5 @@ import dagger.hilt.components.SingletonComponent
 abstract class RepositoryModule {
 
     @Binds
-    abstract fun bindNewRepo(newsRepository: NewsRepository): NewRepo
+    abstract fun bindNewRepo(newsRepository: NewsRepository): NewsRepo
 }

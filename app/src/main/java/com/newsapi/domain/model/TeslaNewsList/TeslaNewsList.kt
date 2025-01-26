@@ -1,4 +1,4 @@
-package com.newsapi.domain.model.WeatherNewsList
+package com.newsapi.domain.model.TeslaNewsList
 
 import com.google.gson.annotations.SerializedName
 import com.newsapi.domain.model.ArticleResponse
@@ -6,5 +6,5 @@ import com.newsapi.domain.model.ArticleResponse
 
 data class TeslaNewsList(
     @SerializedName("articles")
-    val weatherNewsList: List<ArticleResponse>
+    val teslaNewsList: List<ArticleResponse>
 )
